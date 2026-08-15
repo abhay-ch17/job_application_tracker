@@ -4,7 +4,7 @@ const DeletePopup = ({ setDeleteId, setShowDelete, deleteId, fetchData }) => {
   async function submitHandler() {
     try {
       const response = await axios.delete(
-        `http://localhost:3000/jobTracker/api/application/${deleteId}`, {withCredentials:true}
+        `/api/application/${deleteId}`, {withCredentials:true}
       );
       if (response) {
         fetchData();

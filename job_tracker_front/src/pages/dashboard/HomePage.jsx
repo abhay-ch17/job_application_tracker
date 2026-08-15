@@ -38,7 +38,7 @@ const HomePage = () => {
     try {
       if (updateId) {
         const response = await axios.patch(
-          `http://localhost:3000/jobTracker/api/application/${updateId}`,
+          `/api/application/${updateId}`,
           formData,
           {
             withCredentials: true,
@@ -50,7 +50,7 @@ const HomePage = () => {
         }
       } else {
         const response = await axios.post(
-          "http://localhost:3000/jobTracker/api/application",
+          "/api/application",
           formData,
           {
             withCredentials: true,
@@ -81,7 +81,7 @@ const HomePage = () => {
   /////////////////////////
   const fetchData = async () => {
     try {
-      const response = await axios.get(`http://localhost:3000/jobTracker/api/application`, {
+      const response = await axios.get(`/api/application`, {
         withCredentials: true,
       });
       response && setTaskList(response.data);

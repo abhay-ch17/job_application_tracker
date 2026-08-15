@@ -9,7 +9,8 @@ const AuthProvider = ({ children }) => {
   const createUser = async (payload) => {
     try {
       const response = await axios.post(
-        `http://localhost:3000/jobTracker/api/auth/signup`,
+        `/api/auth/signup`,
+        // `http://localhost:3000/jobTracker/api/auth/signup`,
         payload,
         {
           withCredentials: true,
@@ -30,7 +31,7 @@ const AuthProvider = ({ children }) => {
   const checkAuth = async () => {
     try {
       const responseUser = await axios.get(
-        `http://localhost:3000/jobTracker/api/auth/getMe`,
+        `/api/auth/getMe`,
         {
           withCredentials: true,
         },
@@ -52,7 +53,7 @@ const AuthProvider = ({ children }) => {
   const loginUser = async (payload) => {
     try {
       const user = await axios.post(
-        `http://localhost:3000/jobTracker/api/auth/login`,
+        `/api/auth/login`,
         payload,
         {
           withCredentials: true,
@@ -70,7 +71,7 @@ const AuthProvider = ({ children }) => {
   const logout = async () => {
     try {
       const response = await axios.post(
-        `http://localhost:3000/jobTracker/api/auth/logout`,{},
+        `/api/auth/logout`,{},
         {
           withCredentials: true,
         },
