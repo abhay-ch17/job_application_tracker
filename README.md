@@ -15,13 +15,13 @@ A full-stack MERN application to track job applications with status updates.
 
 
 ## Screenshots
-<img width="1920" height="929" alt="Screenshot (74)" src="https://github.com/user-attachments/assets/2c7895c3-4207-4cc9-9121-f523feeb933b" />
-<img width="1920" height="929" alt="Screenshot (73)" src="https://github.com/user-attachments/assets/2889dfbc-3010-40f9-b30a-eaf2c8863385" />
-<img width="1920" height="929" alt="Screenshot (72)" src="https://github.com/user-attachments/assets/9ae472dc-a37f-4ca9-88b6-974fb06f7eb1" />
+<img width="1920" height="929" alt="Screenshot (74)" src="https://github.com/user-attachments/assets/86afb85e-3945-4555-8df0-dd1e6d91d95d" />
+<img width="1920" height="929" alt="Screenshot (73)" src="https://github.com/user-attachments/assets/2d0d509a-57b4-4137-8f2e-6f9502945550" />
+<img width="1920" height="929" alt="Screenshot (72)" src="https://github.com/user-attachments/assets/36d1a207-f8ad-41c0-82aa-5b55bbedf129" />
 
 
 ## demo link
-https://jobb-tracker.netlify.app/
+https://jobb-tracker.netlify.app
 
 ## Local Setup
 1. Clone the repo
