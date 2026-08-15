@@ -5,7 +5,7 @@ import { AuthContext } from "../../AuthContext/AuthContext";
 import AddTask from "./AddTask";
 import axios from "axios";
 import DeletePopup from "./DeletePopup";
-import HeaderCounter from "./headerCounter";
+import HeaderCounter from "./HeaderCounter";
 
 const HomePage = () => {
   const [filter, setFilter] = useState("All");
