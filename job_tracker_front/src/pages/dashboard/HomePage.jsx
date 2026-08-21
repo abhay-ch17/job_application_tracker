@@ -165,7 +165,7 @@ const HomePage = () => {
                 </p>
               </div>
               {/* table data */}\
-              <div className="w-[100%]">
+              <div className="w-[100%] pb-[90px]">
               <table className="w-[100%]">
                 <thead>
                   <tr className="border-1 text-left border-gray-300 h-[38px] text-gray-600">
