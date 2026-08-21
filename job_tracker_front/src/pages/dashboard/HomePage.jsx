@@ -164,7 +164,8 @@ const HomePage = () => {
                   Rejected
                 </p>
               </div>
-              {/* table data */}
+              {/* table data */}\
+              <div className="w-[100%]">
               <table className="w-[100%]">
                 <thead>
                   <tr className="border-1 text-left border-gray-300 h-[38px] text-gray-600">
@@ -175,7 +176,7 @@ const HomePage = () => {
                     <th></th>
                   </tr>
                 </thead>
-                <tbody scrolling="yes" className="h-[100px] overflow-y-scroll">
+                <tbody className="h-[100px] overflow-y-scroll">
                   {/* table row start */}
                   {filteredTaskList.map((item) => (
                     <tr
@@ -205,6 +206,7 @@ const HomePage = () => {
                   {/* table row end */}
                 </tbody>
               </table>
+              </div>
             </div>
           </div>
         )}
