@@ -27,7 +27,7 @@ const HomePage = () => {
       }
       return;
     });
-    setFilteredTaskList(newTaskList);
+    setFilteredTaskList(newTaskList.reverse());
   };
   useEffect(() => {
     filterTask();
