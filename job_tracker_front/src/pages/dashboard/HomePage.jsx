@@ -175,7 +175,7 @@ const HomePage = () => {
                     <th></th>
                   </tr>
                 </thead>
-                <tbody>
+                <tbody scrolling="yes" className="h-[100px] overflow-y-scroll">
                   {/* table row start */}
                   {filteredTaskList.map((item) => (
                     <tr
